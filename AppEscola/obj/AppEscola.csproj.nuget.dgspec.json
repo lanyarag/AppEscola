@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ingridg\\Source\\Repos\\AppEscola\\AppEscola\\AppEscola.csproj": {}
+    "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ingridg\\Source\\Repos\\AppEscola\\AppEscola\\AppEscola.csproj": {
+    "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ingridg\\Source\\Repos\\AppEscola\\AppEscola\\AppEscola.csproj",
+        "projectUniqueName": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj",
         "projectName": "AppEscola",
-        "projectPath": "C:\\Users\\ingridg\\Source\\Repos\\AppEscola\\AppEscola\\AppEscola.csproj",
-        "packagesPath": "C:\\Users\\ingridg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ingridg\\Source\\Repos\\AppEscola\\AppEscola\\obj\\",
+        "projectPath": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj",
+        "packagesPath": "C:\\Users\\carolinyc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ingridg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carolinyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
