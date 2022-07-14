@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\carolinyc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ingridg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj",
+      "projectUniqueName": "C:\\Users\\ingridg\\Documents\\DIGITAL HOUSE\\Visual Studio\\EscolaApp\\AppEscola\\AppEscola.csproj",
       "projectName": "AppEscola",
-      "projectPath": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\AppEscola.csproj",
-      "packagesPath": "C:\\Users\\carolinyc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carolinyc\\Desktop\\Respositórios\\VS\\AppEscola\\AppEscola\\obj\\",
+      "projectPath": "C:\\Users\\ingridg\\Documents\\DIGITAL HOUSE\\Visual Studio\\EscolaApp\\AppEscola\\AppEscola.csproj",
+      "packagesPath": "C:\\Users\\ingridg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ingridg\\Documents\\DIGITAL HOUSE\\Visual Studio\\EscolaApp\\AppEscola\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\carolinyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ingridg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
