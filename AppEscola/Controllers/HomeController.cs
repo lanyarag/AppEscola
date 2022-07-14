@@ -18,6 +18,11 @@ namespace AppEscola.Controllers
             return View();
         }
 
+        public IActionResult Boletim()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

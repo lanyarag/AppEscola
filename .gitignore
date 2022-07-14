@@ -362,13 +362,17 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-.vscode
+
 .vs
 AppEscola/.vs
 AppEscola/vs
 AppEscola/obj
 AppEscola/bin
-
+EscolaApp/AppEscola/vs
+EscolaApp/AppEscola/.vs
+EscolaApp/AppEscola/bin
+EscolaApp/AppEscola/obj
+vs
 obj
 bin
 

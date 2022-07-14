@@ -1,1 +1,100 @@
 ﻿@model List<Boletim>;
+
+<div class="container">
+    <div class="row mt-5 mb-3">
+        <div class="col">
+            <h1>#1 Willian Sant Anna</h1>
+        </div>
+        <div class="row mb-5">
+            <div class="col-auto">
+                <h4 class="h4">31/08/90</h4>
+            </div>
+            <div class="col">
+                <h4 class="text-secondary">(32 Anos)</h4>
+            </div>
+            <h4 class="h4">Rua Tribal, 68 - Recreio dos Bandeirantes, Rio de Janeiro</h4>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Matérias</th>
+                            <th scope="col">1º</th>
+                            <th scope="col">2º</th>
+                            <th scope="col">3º</th>
+                            <th scope="col">4º</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var materia in Model)
+                        {
+                            <tr>
+                                <th class="row">@materia.Materia</th>
+                                @if (@materia.Nota1 < 6)
+                                {
+                                    <td class="table-danger">@materia.Nota1</td>
+                                }
+                                else if (@materia.Nota1 >= 6 && materia.Nota1 < 7)
+                                {
+                                    <td class="table-warning">@materia.Nota1</td>
+                                }
+                                else
+                                {
+                                    <td class="table-success">@materia.Nota1</td>
+                                }
+                                @if (materia.Nota2 < 6)
+                                {
+                                    <td class="table-danger">@materia.Nota2</td>
+                                }
+                                else if (@materia.Nota2 >= 6 && materia.Nota2 < 7)
+                                {
+                                    <td class="table-warning">@materia.Nota2</td>
+                                }
+                                else
+                                {
+                                    <td class="table-success">@materia.Nota2</td>
+                                }
+                                @if (@materia.Nota3 < 6)
+                                {
+                                    <td class="table-danger">@materia.Nota3</td>
+                                }
+                                else if (@materia.Nota3 >= 6 && materia.Nota3 < 7)
+                                {
+                                    <td class="table-warning">@materia.Nota3</td>
+                                }
+                                else
+                                {
+                                    <td class="table-success">@materia.Nota3</td>
+                                }
+                                @if (@materia.Nota4 < 6)
+                                {
+                                    <td class="table-danger">@materia.Nota4</td>
+                                }
+                                else if (@materia.Nota4 >= 6 && materia.Nota4 < 7)
+                                {
+                                    <td class="table-warning">@materia.Nota4</td>
+                                }
+                                else
+                                {
+                                    <td class="table-success">@materia.Nota4</td>
+                                }
+                                @if (@materia.Status == "Aprovado")
+                                {
+                                    <td class="table-success">@materia.Status</td>
+                                }
+                                else
+                                {
+                                    <td class="table-danger">@materia.Status</td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
